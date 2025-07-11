@@ -1,3 +1,4 @@
+import flask
 from flask import Flask, request, render_template, redirect, url_for
 from models import db, User
 import os
